@@ -163,14 +163,14 @@ nav{
 
 .header_container p {
     margin-bottom: 1rem;
-    font-size:1.8rem ; 
+    font-size:1.2rem ; 
     color: var(--white);
     text-align: center;
     opacity: 0.9;
 }
 
 .header_container h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 4.5rem;
     color: var(--white);
@@ -235,6 +235,14 @@ nav{
 
 /*------about us----*/
 
+.about-header{
+    background-image: -webkit-linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/aboutus-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1.2rem;
+
+}
 
 .about_container {
     overflow: hidden;
@@ -252,6 +260,43 @@ nav{
 .about_btn{
     margin-top: 15px;
 }
+
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.about-text h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--primary-color-dark);
+}
+
+.about-text p{
+    text-align: center;
+}
+
+.core-values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.core-values h3{
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary-color-dark);
+}
+
+.core-values span{
+    font-size: 25px;
+    color: green;
+}
+
 
 /*------properties section-----*/
 .property-header{
@@ -720,16 +765,6 @@ button.normal{
     background-color: var(--primary-color-dark);
 }
 
-
-#blog .blog-box h1{
-    position: absolute;
-    top: -50px;
-    left: 0;
-    font-size: 40px;
-    font-weight: 500;
-    color: var(--primary-color-dark);
-    z-index: -9;
-}
 
 #pagination{
     text-align: center;
